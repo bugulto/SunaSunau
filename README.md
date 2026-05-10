@@ -2,6 +2,11 @@
 
 SunaSunau is a Nepali voice assistant with three ML stages: speech recognition, punctuation restoration, and a Nepali chat model. The Streamlit UI captures audio, calls Modal-hosted inference endpoints, and plays back TTS output.
 
+For a detailed explanation of the model training, dataset preparation, evaluation results, and fine-tuning process, read the full project blog here:
+
+**Blog:** [Building SunaSunau: A Nepali Voice Assistant with ASR, Punctuation Restoration, and LLM Fine-Tuning](https://sunasunau.hashnode.dev/building-sunasunau-a-nepali-voice-assistant-with-asr-punctuation-restoration-and-llm-fine-tuning)
+
+
 ## Architecture at a glance
 
 - **Streamlit UI**: handles audio input, text editing, and response playback
